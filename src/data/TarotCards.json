@@ -1,0 +1,18 @@
+[
+    {
+      "name": "The Fool",
+      "meaning": "New beginnings, spontaneity, free spirit.",
+      "image": "/images/the_fool.jpg"
+    },
+    {
+      "name": "The Magician",
+      "meaning": "Power, skill, concentration, action.",
+      "image": "/images/the_magician.jpg"
+    },
+    {
+      "name": "The High Priestess",
+      "meaning": "Intuition, unconscious knowledge, mystery.",
+      "image": "/images/the_high_priestess.jpg"
+    }
+  ]
+  

@@ -1,0 +1,243 @@
+.intro-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+
+  background-image: url("./assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.alert {
+  background-color: rgba(123, 63, 0, 0.5);
+}
+
+.intro-container h1 {
+  font-size: 3rem;
+  font-weight: bold; 
+  margin-bottom: 20px;
+}
+
+.intro-container p {
+  font-size: 1.5rem;
+  font-weight: bold; 
+  margin-bottom: 30px;
+}
+
+.intro-button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.intro-button:hover {
+  background-color: #0056b3;
+}
+
+.card-img-top {
+  width: 100%; 
+  height: 250px; 
+  object-fit: cover; 
+}
+
+.carousel-item img {
+  height: 80vh;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.facebook-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4267b2; 
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.4s ease, transform 0.3s ease;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.facebook-btn:hover {
+  background-color: #365899; 
+  transform: scale(1.05); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.card {
+  border: 2px solid #ccc; 
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  overflow: hidden; 
+}
+
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+  transform: translateY(-5px); 
+  border-color: #888; 
+}
+
+.tarot-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .question-input {
+    padding: 10px;
+    width: 60%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .draw-button {
+    padding: 10px 20px;
+    background-color: #8a2be2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .draw-button:hover {
+    background-color: #5a189a;
+  }
+  
+  .card-display {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .tarot-card img {
+    width: 150px;
+    height: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .tarot-card img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .interpretation {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8f0fc;
+    border-left: 5px solid #8a2be2;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+  }
+  
+  .daily-message-container {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f3f0ff;
+  }
+  
+  .daily-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #6a0dad;
+  }
+  
+  .daily-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .daily-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 250px;
+    padding: 20px;
+  }
+  
+  .daily-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .daily-image {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .daily-card-title {
+    font-size: 1.3rem;
+    margin-top: 15px;
+    color: #8a2be2;
+  }
+  
+  .daily-card-text {
+    font-size: 0.95rem;
+    color: #444;
+    margin-top: 10px;
+  }
+  
+  .about-container {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f3f0ff;
+    color: #333;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    color: #6a0dad;
+    margin-bottom: 20px;
+  }
+  
+  .about-subtitle {
+    font-size: 1.8rem;
+    color: #8a2be2;
+    margin-top: 40px;
+  }
+  
+  .about-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .explore-btn {
+    margin-top: 30px;
+    padding: 12px 25px;
+    font-size: 1rem;
+    background-color: #6a0dad;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .explore-btn:hover {
+    background-color: #8a2be2;
+    cursor: pointer;
+  }
+  
