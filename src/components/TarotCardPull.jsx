@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import tarotCards from "../data/tarotCards.json";
+import tarotCards from "../data/TarotCards";
 
 const TarotCardPull = () => {
   const [question, setQuestion] = useState("");

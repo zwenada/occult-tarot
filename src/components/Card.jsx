@@ -10,32 +10,37 @@ const Card = () => {
         <div className="card mx-2">
           <img src={tarotImage1} className="card-img-top" alt="..." />
           <div className="card-body">
-            <h5 className="card-title">Card Title</h5>
-            <p className="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+            <h5 className="card-title daily-title">🌞 Daily Tarot Message</h5>
+            <p className="card-text daily-text">
+              Start your day with clarity and purpose. Let today’s Tarot message
+              guide your thoughts and actions, offering insight into the energy
+              surrounding you. Embrace the wisdom of the cards and unlock the
+              hidden truths that can shape your journey.
             </p>
           </div>
         </div>
         <div className="card me-2">
           <img src={tarotImage2} className="card-img-top" alt="..." />
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">
-              This card has supporting text below as a natural lead-in to
-              additional content.
+            <h5 className="card-title weekly-title">📅 Weekly Focus Tarot</h5>
+            <p className="card-text weekly-text">
+              Gain deeper perspective for the week ahead. This focused Tarot
+              reading reveals the energies, opportunities, and challenges that
+              may arise. Align your intentions and stay grounded with guidance
+              designed to help you navigate your path with confidence.
             </p>
           </div>
         </div>
         <div className="card me-2">
           <img src={tarotImage3} className="card-img-top" alt="..." />
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+            <h5 className="card-title ritual-title">🕯️ Magic Candle & Ritual</h5>
+            <p className="card-text ritual-text">
+              Invite powerful energies into your life with enchanting candle
+              magic and meaningful rituals. Each flame carries your intentions
+              into the universe, empowering transformation, protection, and
+              manifestation. Light the way to your desires and let your spirit
+              shine.
             </p>
           </div>
         </div>

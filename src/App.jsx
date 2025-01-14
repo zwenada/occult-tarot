@@ -2,12 +2,13 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
-import Card from "./components/Card";
 import Outline from "./components/Outline";
 import Packages from "./components/Packages";
 import DailyMessage from "./components/DailyMessage";
 import AboutUs from "./components/AboutUs";
 import TarotCardPull from "./components/TarotCardPull";
+import Card from "./components/card";
+
 
 const Home = () => (
   <>

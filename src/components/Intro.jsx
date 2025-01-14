@@ -5,8 +5,8 @@ const Intro = () => {
     <div className="intro-container">
       <div class="carousel-caption d-none d-md-block">
         <div class="alert" role="alert">
-          <h1>First slide label</h1>
-          <p>Some representative placeholder content for the first slide.</p>
+          <h1>Welcome to Occult Tarot</h1>
+          <p>We are here for your wonderful stories and consulation.</p>
         </div>
       </div>
     </div>

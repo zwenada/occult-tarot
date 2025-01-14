@@ -240,4 +240,39 @@
     background-color: #8a2be2;
     cursor: pointer;
   }
+
+  .daily-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: #6A0572;
+  }
   
+  .daily-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .weekly-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: #034C3C;
+  }
+  
+  .weekly-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  .ritual-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: #C70039;
+  }
+  
+  .ritual-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #555;
+  }
