@@ -30,7 +30,7 @@ const Card = () => {
               designed to help you navigate your path with confidence.
             </p>
           </div>
-        </div>
+        </div> 
         <div className="card me-2">
           <img src={tarotImage3} className="card-img-top" alt="..." />
           <div className="card-body">
